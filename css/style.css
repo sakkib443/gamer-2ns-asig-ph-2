@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 78%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+span{
+   color: #FF42A5;
+}
+.nav-section{
+    padding-top: 20px;
+    box-shadow: 1px 1px 20px rgb(180, 180, 180);
+    position: relative;
+    z-index: 2;
+}
+.logo-sec{
+    display: flex;
+}
+.logo-sec img{
+    width: 60px;
+    height: 30px;
+    margin-top: 10px;
+    padding-right: 7px;
+}
+
+ul{
+    display: flex;
+}
+.menu-sec li{
+    padding-right: 25px;
+}
+.follow-sec{
+    background: #d8d8d8;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    top: -10px;
+}
+.follow-sec i{
+    color: rgb(255, 0, 0);
+    padding-left: 20px;
+    position: relative;
+    font-size: 25px;
+}
+.hero-sec{
+    background: rgb(241, 241, 241);
+}
+.hero-img-sec{
+  
+    width: 50%;
+    
+    
+}
+.hero-img-sec img{
+    width: 100%;
+    
+    display: flex;
+    align-items: flex-end;
+}
+.hero-write-sec{
+  
+    width: 50%;
+    padding-top: 100px;
+}
+.hero-write-sec h4{
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+.hero-write-sec h1{
+    font-size: 70px;
+    font-weight: 700;
+    position: relative;
+    top: -10px;
+}
+
+.hero-btn-sec button{
+    padding: 10px 17px;
+    margin-right: 15px;
+    margin-top: 30px;
+    border-radius: 6px;
+    border: none;
+    background: orchid;
+    color: rgb(255, 255, 255);
+}
+.funny-videos-sec{
+    margin-top: 100px;
+}
+.f-v-s-heading {
+    margin-bottom: 30px;
+}
+.f-v-s-heading h2{
+    text-align: center;
+    font-size: 30px;
+
+}
+.f-v-s-heading p{
+    text-align: center;
+}
+.f-v-s-videos .img{
+    width: 23%;
+}
+.f-v-s-videos .img:hover{
+    opacity: .4;
+    transition: .3s;
+    
+}
+.overlay i{
+    position: relative;
+    font-size: 35px;
+    top:-200px;
+    left: 120px;
+    z-index: 2;
+}
+.f-v-s-videos .img img{
+    width: 100%;
+}
+.f-v-s-videos .img p{
+    font-size: small;
+}
+
+
+
+/* play-instantly-sec */
+
+.play-instantly-sec{
+    margin-top: 100px;
+    height: 500px;
+    padding-top: 40px;
+   
+    background: rgb(240, 240, 240);
+}
+.p-i-s-write-sec{
+   
+    width: 30%;
+    position: relative;
+    top: 170px;
+    left: 70px;
+   
+   
+}
+.p-i-s-write-sec h2{
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+}
+.p-i-s-write-sec p{
+    font-size: 12px;
+    padding-left: 45px;
+}
+.p-i-s-img-sec{
+    width: 45%;
+   
+    
+    
+}
+.img-1 img{
+    width: 75%;
+    position: relative;
+    left: 85px;
+   
+}
+.img-2 img{
+    width: 40%;
+    position: relative;
+    bottom: 185px;
+}
+
+/* games */
+.games{
+    margin-top: 120px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    
+
+    
+}
+.col img{
+    width: 28%;
+    margin-right: 10px;
+}
+.col p{
+    font-size: 12px;
+    font-weight: 600;
+}
+.row2{
+    margin-top: 25px;
+    padding: 0 70px;
+}
+.col:hover{
+    border: 1px solid rgb(197, 197, 197);
+    background: rgb(190, 190, 190);
+    border-radius: 8px;
+}
+.col-2{
+    background: rgb(190, 190, 190);
+    border-radius: 10px;
+    padding: 5px;
+}
+footer {
+ padding: 50px 0;
+ background: BLACK;
+ color: rgb(255, 255, 255);
+ text-align: center;
+ margin-top: 100px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+}
+.footer-logo img{
+    width: 60px;
+    height: 30px;
+    margin-top: 10px;
+    padding-right: 7px;
+}
+.footer-menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.footer-menu a{
+   text-align: center;
+   color: rgb(255, 255, 255);
+   padding-right: 50px;
+   font-size: 11px;
+}
+
+.privacy{
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+}
+.privacy a{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-right: 50px;
+    font-size: 11px;
+}
+.copyright p{
+    font-size: 12px;
+    color: rgb(90, 124, 124);
+}
+.footer-icon i{
+    color: white;
+    margin: 20px 5px 0 10px;
+    padding: 12px;
+    border: 1px solid  #FF42A5;
+    border-radius: 100px;
+}
+
+/* .overlay{
+    background: #412828;position: relative;
+    opacity: .3;
+    z-index: 3;
+    
+} */
+@media screen and (max-width:576px){
+    .row{
+        flex-direction: column;
+    }
+}
