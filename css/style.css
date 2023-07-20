@@ -119,12 +119,21 @@ ul{
     transition: .3s;
     
 }
+.img:hover .overlay i{
+    display: block;
+    position: relative;
+    z-index: 5;
+    color: red;
+
+}
 .overlay i{
     position: relative;
     font-size: 35px;
     top:-200px;
     left: 120px;
     z-index: 2;
+    display: none;
+    opacity: 2;
 }
 .f-v-s-videos .img img{
     width: 100%;
@@ -266,12 +275,8 @@ footer {
     border-radius: 100px;
 }
 
-/* .overlay{
-    background: #412828;position: relative;
-    opacity: .3;
-    z-index: 3;
-    
-} */
+
+
 @media screen and (max-width:576px){
     .row{
         flex-direction: column;
@@ -309,7 +314,7 @@ footer {
         text-align: center;
         position: relative;
         top: -40px;
-        left: -17px;
+        left: -20px;
        
     }
 
